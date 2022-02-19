@@ -1,0 +1,13 @@
+.main-img {
+    max-width: 320px;
+    height: auto;
+    text-align: center;
+}
+
+.baby-container {
+    min-height: 136px;
+    max-height: auto;
+    margin: 3px;
+    text-align: center;
+    padding: 3px;  
+}
