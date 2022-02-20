@@ -1,16 +1,22 @@
-import Title from "./components/atoms/Title/Title";
-import LargeBabies from "./components/atoms/LargeBaby/LargeBaby";
 
 import './app.css'
+import Title from "./components/atoms/Title/Title";
+import Babies from "./components/atoms/Babies/Babies";
+import ParticlesBackground from "./effects/ParticlesBackground";
+
 
 function App() {
   return (
-    <div class='page-container'>
+    <>
+      <ParticlesBackground class="particle-bkg" />
       <Title />
-      <LargeBabies />
-    </div>
-    
-  )
+      <div class="container">
+        <Babies />
+      </div>
+      
+    </>
+
+  );
 }
 
 export default App;
