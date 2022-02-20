@@ -8,7 +8,7 @@ export default function LargeBabies() {
       <img class='main-img' src={baby} alt="adopt-a-baby"></img>
       <h2 class="welcome">
         -
-        Adopt a Baby Today! 
+        Adopt a Baby NFTs Coming Soon! 
         -
       </h2>
       <br>

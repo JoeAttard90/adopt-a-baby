@@ -2,6 +2,7 @@
 import './app.css'
 import Title from "./components/atoms/Title/Title";
 import Babies from "./components/atoms/Babies/Babies";
+import Footer from './components/atoms/Footer/Footer';
 import ParticlesBackground from "./effects/ParticlesBackground";
 import { isMobile } from "react-device-detect";
 import React from "react";
@@ -40,6 +41,7 @@ class App extends React.Component {
           <div class="container">
             <Babies />
           </div>
+          <Footer />
         </>
       );
     }
@@ -49,6 +51,7 @@ class App extends React.Component {
         <div class="container">
           <Babies />
         </div>
+        <Footer />
       </>
   
     );
