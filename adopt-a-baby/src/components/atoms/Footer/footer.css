@@ -9,30 +9,4 @@
     background-color: whitesmoke;
 }
 
-ul {
-    list-style: none;
-}
-
-li {
-    display: inline;
-    margin: 4px;
-}
-
-.link-container {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    align-items: center;
-}
-
-.icons {
-    z-index: -2;
-    font-size: 30px;
-    color: #ff4646;
-    
-}
-
-.oceansea-logo {
-    max-height: 27px;
-    background-color: #ff4646;
-}
 

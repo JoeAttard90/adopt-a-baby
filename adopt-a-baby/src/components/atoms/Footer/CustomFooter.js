@@ -8,15 +8,15 @@ import './footer.css'
 const CustomFooter = () => {
   return (
       <> 
-          <footer className='main-footer'>
-            <div className='link-container'>
-                <ul>
-                    <a href="/"><li><FontAwesomeIcon icon={faInstagram} className="icons"/></li></a>
-                    <a href="/"><li><FontAwesomeIcon icon={faTwitter} className="icons"/></li></a>
-                    <a href="/"><li><img class='oceansea-logo' src={openSea} alt="adopt-a-baby"></img></li></a>
-                </ul>
-            </div>
-          </footer>
+      <footer className='main-footer'>
+        <div className='link-container'>
+          <ul>
+            <a href="https://www.instagram.com/adoptababynft/" target="_blank"><li><FontAwesomeIcon icon={faInstagram} className="icons"/></li></a>
+            <a href="https://twitter.com/NftAdoptABaby" target="_blank"><li><FontAwesomeIcon icon={faTwitter} className="icons"/></li></a>
+            <a href="https://opensea.io/AdoptABaby" target="_blank"><li><img class='oceansea-logo' src={openSea} alt="adopt-a-baby"></img></li></a>
+          </ul>
+        </div>
+      </footer>
       </>
    
   )
