@@ -1,7 +1,7 @@
 import './app.css'
-import Title from "./components/atoms/Title/Title";
-import Babies from "./components/atoms/Babies/Babies";
-import CustomFooter from './components/atoms/Footer/CustomFooter';
+import Title from "./components/Title/Title";
+import Babies from "./components/Babies/Babies";
+import CustomFooter from './components/Footer/CustomFooter';
 import ParticlesBackground from "./effects/ParticlesBackground";
 import { isMobile } from "react-device-detect";
 import React from "react";
