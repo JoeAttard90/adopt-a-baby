@@ -1,0 +1,12 @@
+.main-footer {
+    height: 14vh;
+    margin-top: 30px;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    border-top: solid 2px #ff4646;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+

@@ -12,6 +12,10 @@
     padding: 3px;  
 }
 
+.welcome-link {
+    text-decoration: none;
+}
+
 .welcome {
-    color: #ac3232;
+    color: #ff4646;
 }
