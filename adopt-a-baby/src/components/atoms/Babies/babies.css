@@ -12,6 +12,10 @@
     padding: 3px;  
 }
 
+.welcome-link {
+    text-decoration: none;
+}
+
 .welcome {
     color: #ff4646;
 }

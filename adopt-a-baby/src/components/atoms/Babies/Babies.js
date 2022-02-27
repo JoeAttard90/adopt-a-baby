@@ -5,12 +5,12 @@ import './babies.css'
 export default function LargeBabies() {
   return (
     <div class='baby-container'>
-      <img class='main-img' src={baby} alt="adopt-a-baby"></img>
-      <h2 class="welcome">
+       <a href="/"><img class='main-img' src={baby} alt="adopt-a-baby"></img></a>
+       <a href="/" class="welcome-link"><h2 class="welcome">
         -
         Adopt a Baby NFTs Coming Soon! 
         -
-      </h2>
+      </h2></a>
       <br>
       </br>
       <p>
