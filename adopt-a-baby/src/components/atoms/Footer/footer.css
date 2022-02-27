@@ -1,8 +1,10 @@
-.footer {
-    height: 25vh;
+.main-footer {
+    height: 20vh;
     margin-top: 30px;
-    margin-bottom: 30px;
-    border-top: solid 2px #ac3232;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    border-top: solid 2px #ff4646;
     text-align: center;
     background-color: whitesmoke;
 }
@@ -24,5 +26,5 @@ li {
 .icons {
     z-index: -2;
     font-size: 30px;
-    color: #ac3232;
+    color: #ff4646;
 }

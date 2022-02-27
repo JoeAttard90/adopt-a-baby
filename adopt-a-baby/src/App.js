@@ -1,8 +1,7 @@
-
 import './app.css'
 import Title from "./components/atoms/Title/Title";
 import Babies from "./components/atoms/Babies/Babies";
-import Footer from './components/atoms/Footer/Footer';
+import CustomFooter from './components/atoms/Footer/CustomFooter';
 import ParticlesBackground from "./effects/ParticlesBackground";
 import { isMobile } from "react-device-detect";
 import React from "react";
@@ -35,24 +34,29 @@ class App extends React.Component {
       return <>Loading...</>;
     } else if (!mobile) {
       return (
-        <>
+        <div className='page-container'>
+        <div className='content-wrap'>
           <ParticlesBackground class="particle-bkg" />
           <Title />
           <div class="container">
             <Babies />
           </div>
-          <Footer />
-        </>
+
+        </div>
+        <CustomFooter />
+        </div>
       );
     }
     return (
-      <>
+      <div className='mobile-page-container'>
+      <div className='content-wrap'>
         <Title />
         <div class="container">
           <Babies />
         </div>
-        <Footer />
-      </>
+      </div>
+      <CustomFooter />
+      </div>
   
     );
   }

@@ -1,28 +1,28 @@
 const ParticleConfig = {
     particles: {
       number: {
-        value: 50,
+        value: 75,
         density: {
           enable: false,
           value_area: 800
         }
       },
       color: {
-        value: "#000000"
+        value: "#ff4646"
       },
       shape: {
-        type: "square",
+        type: "circle",
         stroke: {
-          width: 0,
-          color: "#000000"
+          width: 6,
+          color: "#ff4646"
         },
         polygon: {
           nb_sides: 5
         },
       },
       opacity: {
-        value: 0.5,
-        random: false,
+        value: 1,
+        random: true,
         anim: {
           enable: false,
           speed: 1,
@@ -42,12 +42,12 @@ const ParticleConfig = {
       },
       move: {
         enable: true,
-        speed: 4.810236182596568,
+        speed: 5,
         direction: "top",
         random: true,
         straight: false,
         out_mode: "out",
-        bounce: false,
+        bounce: true,
         attract: {
           enable: false,
           rotateX: 600,
@@ -59,7 +59,7 @@ const ParticleConfig = {
       detect_on: "canvas",
       events: {
         onclick: {
-          enable: true,
+          enable: false,
           mode: "repulse"
         },
         resize: true

@@ -1,5 +1,17 @@
-#root {
+html, body, #root, #app {
     width: 100%;
+    margin: 0% !important;
+}
+
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    flex:1;
 }
 
 #tsparticles {
@@ -12,4 +24,6 @@
 h1, h2, h3, h4, h5, p{
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+
+
 
