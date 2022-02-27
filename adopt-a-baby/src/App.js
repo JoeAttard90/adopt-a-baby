@@ -48,15 +48,16 @@ class App extends React.Component {
       );
     }
     return (
-      <div className='mobile-page-container'>
-      <div className='content-wrap'>
-        <Title />
-        <div class="container">
-          <Babies />
+      <div className='page-container'>
+        <div className='content-wrap'>
+          <Title />
+          <div class="container">
+            <Babies />
+          </div>
+
         </div>
-      </div>
-      <CustomFooter />
-      </div>
+        <CustomFooter />
+        </div>
   
     );
   }
