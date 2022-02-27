@@ -2,13 +2,13 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
-import baby from '../../images/main-image.png'
-import './babies.css'
+import mainImage from '../../images/main-image.png'
+import './mainContent.css'
 
 export default function LargeBabies() {
   return (
     <div class='baby-container'>
-       <a href="/"><img class='main-img' src={baby} alt="adopt-a-baby"></img></a>
+       <a href="/"><img class='main-img' src={mainImage} alt="adopt-a-baby"></img></a>
        <a href="https://opensea.io/AdoptABaby" target="_blank" rel="noreferrer" class="welcome-link"><h2 class="welcome">
         -
         Adopt a Baby NFTs <u>Coming Soon!</u>
