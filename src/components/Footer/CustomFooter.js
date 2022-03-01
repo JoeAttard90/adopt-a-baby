@@ -2,7 +2,8 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
-import openSea from '../../images/opensea-edit.png'
+import { faDiscord } from "@fortawesome/free-brands-svg-icons"
+//import openSea from '../../images/opensea-edit.png'
 import './footer.css'
 
 const CustomFooter = () => {
@@ -11,9 +12,10 @@ const CustomFooter = () => {
       <footer className='main-footer'>
         <div className='link-container'>
           <ul>
-            <a href="https://www.instagram.com/adoptababynft/" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faInstagram} className="icons"/></li></a>
-            <a href="https://twitter.com/NftAdoptABaby" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faTwitter} className="icons"/></li></a>
-            <a href="https://opensea.io/AdoptABaby" target="_blank" rel="noreferrer"><li><img class='oceansea-logo' src={openSea} alt="adopt-a-baby"></img></li></a>
+            <li><a href="https://www.instagram.com/adoptababynft/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} className="icons"/></a></li>
+            <li><a href="https://twitter.com/NftAdoptABaby" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} className="icons"/></a></li>
+            <li><a href="/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faDiscord} className="icons"/></a></li>
+            {/*<li><a href="https://opensea.io/AdoptABaby" target="_blank" rel="noreferrer"><img class='oceansea-logo' src={openSea} alt="adopt-a-baby"></img></a></li>*/}
           </ul>
         </div>
       </footer>

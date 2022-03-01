@@ -1,7 +1,4 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram } from "@fortawesome/free-brands-svg-icons"
-import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import mainImage from '../../images/main-image.png'
 import './content.css'
 
@@ -17,16 +14,6 @@ const Content = () => {
             </h2>
         </a>
         <p>Follow us on social media to stay up to date...</p>
-        <div className='link-container'>
-            <ul>
-                <a href="https://www.instagram.com/adoptababynft/" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faInstagram} className="icons"/></li></a>
-                <a href="https://twitter.com/NftAdoptABaby" target="_blank" rel="noreferrer"><li><FontAwesomeIcon icon={faTwitter} className="icons"/></li></a>
-            </ul>
-        </div>
-        <p>
-        <strong>100</strong> Individual babies must be adopted!
-        Each baby is one-of-a-kind and is fully customizable with owned items. <strong>All Unique</strong>. Be an early adopter!
-        </p>
     </>
     
   )
