@@ -1,11 +1,10 @@
-import './app.css'
+import React from "react";
 import Title from "./components/Title/Title";
-import MainContent from "./components/MainContent/MainContent";
+import MainContentContainer from "./components/MainContentContainer/MainContentContainer";
 import CustomFooter from './components/Footer/CustomFooter';
 import ParticlesBackground from "./effects/ParticlesBackground";
 import { isMobile } from "react-device-detect";
-import React from "react";
-
+import './app.css'
 
 class App extends React.Component {
   constructor(props) {
@@ -39,7 +38,7 @@ class App extends React.Component {
           <ParticlesBackground class="particle-bkg" />
           <Title />
           <div class="container">
-            <MainContent />
+            <MainContentContainer />
           </div>
 
         </div>
@@ -52,7 +51,7 @@ class App extends React.Component {
         <div className='content-wrap'>
           <Title />
           <div class="container">
-            <MainContent />
+            <MainContentContainer />
           </div>
 
         </div>
