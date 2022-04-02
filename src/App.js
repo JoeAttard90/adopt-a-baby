@@ -4,7 +4,13 @@ import MainContentContainer from "./components/MainContentContainer/MainContentC
 import CustomFooter from './components/Footer/CustomFooter';
 import ParticlesBackground from "./effects/ParticlesBackground";
 import { isMobile } from "react-device-detect";
-import './app.css'
+
+if (isMobile) {
+  import('./mobileApp.css');
+} else {
+  import('./app.css');
+}
+
 
 class App extends React.Component {
   constructor(props) {

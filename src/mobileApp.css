@@ -1,0 +1,63 @@
+html, body, #root, #app {
+    width: 100%;
+    margin: 0% !important;
+}
+
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-container-mobile {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    flex:1;
+}
+
+#tsparticles {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
+}
+
+h1, h2, h3, h4, h5, p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin: 4px;
+}
+
+.link-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.icons {
+    z-index: -2;
+    font-size: 80px;
+    color: #ff4646;
+    
+}
+
+.oceansea-logo {
+    max-height: 26px;
+    background-color: #ff4646;
+}
+
+
