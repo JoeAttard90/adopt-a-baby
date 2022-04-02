@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/adopt-a-baby/static/css/main.a8dc251d.css",
+    "main.js": "/adopt-a-baby/static/js/main.bd73a876.js",
+    "static/js/787.dae1a41f.chunk.js": "/adopt-a-baby/static/js/787.dae1a41f.chunk.js",
+    "index.html": "/adopt-a-baby/index.html",
+    "main.a8dc251d.css.map": "/adopt-a-baby/static/css/main.a8dc251d.css.map",
+    "main.bd73a876.js.map": "/adopt-a-baby/static/js/main.bd73a876.js.map",
+    "787.dae1a41f.chunk.js.map": "/adopt-a-baby/static/js/787.dae1a41f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8dc251d.css",
+    "static/js/main.bd73a876.js"
+  ]
+}
