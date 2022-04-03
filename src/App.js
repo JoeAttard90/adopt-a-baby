@@ -53,7 +53,7 @@ class App extends React.Component {
       );
     }
     return (
-      <div className='page-container'>
+      <div className='page-containe-mobiler'>
         <div className='content-wrap'>
           <Title />
           <div class="container">
